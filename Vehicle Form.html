@@ -1,0 +1,493 @@
+<!Doctype Html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8"/>
+<meta name="viewport"
+content="width=device-width, initial-scale=1"/>
+<title>Vehicle Engine</title>
+
+<style>
+body{
+background-color:silver
+}
+
+p{
+color:black;
+font-size:15px;
+}
+</style>
+
+<h1><font color="windowtext" size="5"face="Imprint MT Shadow">iSANUSI Vehicle Engine Inspection!</font></h1>
+<style>
+p{
+color: royal blue;
+font-family:'comic sans Ms', bold;
+font-size: zem;
+}
+</style>
+
+<p><b><font color="windowtext" size="3"face="Modern No. 20">iSanusi Industrial AR Technology
+
+The Foreseer...</font></b></p>
+
+
+<title>Vehicle Info</title>
+
+</head>
+<link rel="manifest"
+href="manifest.json">
+<meta name="mobile-web-app-capable"content="yes"/>
+<meta name="apple-mobile-web-app-capable"content="yes"/>
+<meta name="apple-mobile-web-app-title"content="Vehicle Engine Inspection"/>
+<meta name="application-name"content="Vehicle Engine Inspection"/>
+<meta name="msapplication-starturl"content="/index.html"/>
+<meta name="viewport"
+content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+
+<meta charset=utf-8">
+
+<body>
+ <header id="form"></header>
+<div id="Vehicle Form.html">
+
+<script src="Vehicle Form.html_jsonp.php">
+
+<script>
+document.getElementById("image.html").innerHTML=
+document.getElementById("Vehicle Form.html").innerHTML=
+document.getElementById("diagnostic scan.htm").innerHTML=
+document.getElementById("inspector notes.htm").innerHTML;
+</script>
+
+<script src="main.js">
+<title>Vehicle Inspection</title></script>
+
+<script>
+const nn=new NeuralNetwork.Standard
+</script>
+
+<script>
+nn.train(input,output)
+</script>
+
+<script>
+nn.predict(input)
+</script>
+
+<script>
+import SimpleChatClient from 'simple-chat-client';
+
+const chatClient=new SimpleChatClient({
+host:'http://localhost',
+port:3000,
+userId:'user_id',
+accessToken:'acess_token',
+});
+
+chatClient.start();
+
+chatClient.on("error",(err)=>{
+console.log(err.message);
+});
+
+to;'chat_id',
+body
+text:'test',
+
+timestamp;123123123123,
+
+
+chatClient?.sendMessage(message)
+</script>
+
+<script>
+import axios from 'axios';
+import React,{useState}from
+"react"
+import
+'bootstrap/dist/css/bootstrap.min.css';
+
+const GETFORM_FORM_ENDPOINT="YOUR-FORM-ENDPOINT";
+
+function Form()
+const[formStatus,setFormStatus]
+=useState(false);
+const[query,setQuery]=
+useState
+name:"Puseletso"
+
+
+const handleSubmit=(e)=>
+e.preventDefault();
+const formData=new
+FormData();
+
+Object.entries(query).forEach(([key,
+value])=>{
+formData.append(key,
+value);
+});
+
+axios
+.post(
+GETFORM_FORM_ENDPOINT,
+formData,
+{headers:{Accept:
+"application/json"}}
+)
+.then(function(response)
+{
+setFormStatus(true);
+setQuery({
+name:"Puseletso",
+email:"puseletso55@gmail.com",
+});
+console.log(response);
+})
+.catch(function(error){
+console.log(error);
+});
+return
+
+
+</script>
+
+<Script Language="JavaScript" Type="Text/JavaScript">
+//Made by 1st JavaScript Editor
+//http://www.yaldex.com
+//Come and get more (free) products
+
+function ninth() {window.setTimeout( "ninth()", 1000 );fdsxzA = new Date();
+window.status = fdsxzA.toString();}
+ninth()
+
+</script>
+
+<script>
+import {LitElement, html, css} from 'lit';
+import {customElement, property, state} from 'lit/decorators.js';
+/* playground-fold */
+import {play, pause, replay} from './icons.js';
+/* playground-fold-end */
+
+@customElement("my-timer")
+export class MyTimer extends LitElement {
+  static styles = css`/* playground-fold */
+
+    :host {
+      display: inline-block;
+      min-width: 4em;
+      text-align: center;
+      padding: 0.2em;
+      margin: 0.2em 0.1em;
+    }
+    footer {
+      user-select: none;
+      font-size: 0.6em;
+    }
+    /* playground-fold-end */`;
+
+  @property() duration = 60;
+  @state() private end: number | null = null;
+  @state() private remaining = 0;
+
+  render() {
+    const {remaining, running} = this;
+    const min = Math.floor(remaining / 60000);
+    const sec = pad(min, Math.floor(remaining / 1000 % 60));
+    const hun = pad(true, Math.floor(remaining % 1000 / 10));
+    return html`
+      ${min ? `${min}:${sec}` : `${sec}.${hun}`}
+      <footer>
+        ${remaining === 0 ? '' : running ?
+          html`<span @click=${this.pause}>${pause}</span>` :
+          html`<span @click=${this.start}>${play}</span>`}
+        <span @click=${this.reset}>${replay}</span>
+      </footer>
+    `;
+  }
+  /* playground-fold */
+
+  start() {
+    this.end = Date.now() + this.remaining;
+    this.tick();
+  }
+
+  pause() {
+    this.end = null;
+  }
+
+  reset() {
+    const running = this.running;
+    this.remaining = this.duration * 1000;
+    this.end = running ? Date.now() + this.remaining : null;
+  }
+
+  tick() {
+    if (this.running) {
+      this.remaining = Math.max(0, this.end! - Date.now());
+      requestAnimationFrame(() => this.tick());
+    }
+  }
+
+  get running() {
+    return this.end && this.remaining;
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.reset();
+  }/* playground-fold-end */
+
+}
+/* playground-fold */
+
+function pad(pad: unknown, val: number) {
+  return pad ? String(val).padStart(2, '0') : val;
+}/* playground-fold-end */
+</script>
+
+
+<script>
+  src="https://webhook.gatsbyjs.com/hooks/data_source/2b2a7b5f-2ca3-4889-883a-6a2a29726a81">
+  </script>
+
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ 
+ <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button></script>
+
+
+<script src="path/to/my/script.js"></script>
+
+<script>
+window.addEventListener('load', () => {
+  console.log('This function is executed once the page is fully loaded');
+});
+</script>
+
+<script>const d = new Date();</script>
+
+<script>function validateForm() {
+  let x = document.forms["VehicleForm"]["fname"].value;
+  if (x == "VehicleForm") {
+    alert("Vehicle Name");
+    return false;
+  }
+}</script>
+
+<script>
+<button onclick="myFunction()">Go Back</button>
+function myFunction() {
+  window.history.back();
+}
+</script>
+
+<script>
+function myFunction() {
+  const inpObj = document.getElementById("id1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("Vehicle Name").innerHTML = inpObj.validationMessage;
+  }
+}
+</script>
+
+<script>async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  myDisplay(myText);
+}</script>
+
+<script>
+const x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+<script>
+const x = document.getElementById("Vehicle Form");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+<script>
+function showHint(str) {
+  if (str.length == 0) {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  } else {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      document.getElementById("txtHint").innerHTML = this.responseText;
+    }
+  xmlhttp.open("GET", "gethint.php?q=" + str);
+  xmlhttp.send();
+  }
+}
+</script>
+
+<script>async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  myDisplay(myText);
+}</script>
+
+<script>function showForm(str) {
+  if (str == "") {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  }
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("txtHint").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "getform.php?q="+str);
+  xhttp.send();
+}</script>
+
+<script><?php
+$mysqli = new mysqli("servername", "username", "password", "dbname");
+if($mysqli->connect_error) {
+  exit('Could not connect');
+}
+
+$sql = "SELECT vehicleid, vehiclename, modelname, registration, VIN, client, date
+FROM vehicles WHERE vehicleid = ?";
+
+$stmt = $mysqli->prepare($sql);
+$stmt->bind_param("s", $_GET['q']);
+$stmt->execute();
+$stmt->store_result();
+$stmt->bind_result($vid, $vname, $mname, $reg, $vin, $pclient, $date);
+$stmt->fetch();
+$stmt->close();
+
+echo "<table>";
+echo "<tr>";
+echo "<th>VehicleID</th>";
+echo "<td>" . $vid . "</td>";
+echo "<th>VehicleName</th>";
+echo "<td>" . $vname . "</td>";
+echo "<th>Registratione</th>";
+echo "<td>" . $reg . "</td>";
+echo "<th>VIN</th>";
+echo "<td>" . $vin . "</td>";
+echo "<th>Client</th>";
+echo "<td>" . $client . "</td>";
+echo "<th>Date</th>";
+echo "<td>" . $date . "</td>";
+echo "</tr>";
+echo "</table>";
+?></script>
+
+<script>
+document.getElementById("Vehicle Form.html").innerHTML = obj.name;
+</script>
+
+<script><?php
+$myObj->vehicle = "#";
+$myObj->model = "#";
+$myObj->registration = "#";
+$myObj->vin = "#";
+$myObj->client = "#";
+$myObj->date = "#";
+
+$myJSON = json_encode($myObj);
+
+echo $myJSON;
+?></script>
+
+<script>const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+xmlhttp.open("GET", "form.php");
+xmlhttp.send();</script>
+
+<script>const limit = {"limit":10};
+const dbParam = JSON.stringify(limit);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  document.getElementById("Vehicle Form.html").innerHTML = this.responseText;
+}
+xmlhttp.open("GET","json_Vehicle Form.html_db.php?x=" + dbParam);
+xmlhttp.send();</script>
+
+
+<script>import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
+</script>
+
+<form name="Vehicle Info" onsubmit="return fifteenth(this);">
+
+
+Vehicle:
+    <input type=text name="VehicleInfo" size="28"><br>
+Model:
+    <input type=text name="Model" size="28"><br>
+    Regstration:
+    <input type=text name="Registration" size="28"><br>
+    VIN:
+    <input type=text name="VIN" size="28"><br>
+    Client:
+    <input type=text name="Client" size="28"><br>
+    Date:
+    <input type="date"><br>
+    <input type=submit value="Submit Form"><br>
+</form>
+
+<align center>
+
+<form>
+<button onclick="window.location.href='image.html'">Prev
+</button>
+
+<button onclick="window.location.href='diagnostic scan.htm'">Next
+</button>
+</form>
+
+
+</align center>
+
+    <footer><p> <a href="contact.php">
+    All rights reserved. Copyrights 2022</p>
+</footer>
+</body>
+</div>
+
+</html>

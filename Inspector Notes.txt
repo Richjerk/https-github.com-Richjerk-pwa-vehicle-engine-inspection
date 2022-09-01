@@ -1,0 +1,24 @@
+import React from "react"
+const notes=()=>{
+return(
+<div>
+<h1>Inspector Notes</h1>
+<p>Inspector Notes</p>
+</div>
+)
+}
+export default NotesPage
+
+import Layout from "../components/
+layout"
+import FancyPragraph from "../
+components/fancy-paragraph"
+
+const NotesPage=()=>(
+<Layout>
+<h1>Inspector Notes</h1>
+<FancyParagraph
+paragraphText="Styled with CSS
+Modules."/>
+</Layout>
+)

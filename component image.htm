@@ -1,0 +1,440 @@
+<!Doctype Html>
+
+<html>
+
+<head>
+
+<style>
+
+body{
+background-color:silver
+}
+
+p{
+color:black;
+font-size:15px;
+}
+</style>
+
+
+
+<link rel="manifest"
+href="manifest.json">
+<meta name="mobile-web-app-capable"content="yes"/>
+<meta name="apple-mobile-web-app-capable"content="yes"/>
+<meta name="apple-mobile-web-app-title"content="Vehicle Engine Inspection"/>
+<meta name="application-name"content="Vehicle Engine Inspection"/>
+<meta name="msapplication-starturl"content="/index.html"/>
+<meta name="viewport"
+content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+
+<meta charset="utf-8"/>
+<meta name="viewport"
+content="width=device-width, initial-scale=1"/>
+<title>Vehicle Engine</title>
+
+
+<h1><font color="windowtext" size="5"face="Imprint MT Shadow">iSANUSI Vehicle Engine Inspection!</font></h1>
+<style>
+p{
+color: royal blue;
+font-family:'comic sans Ms', bold;
+font-size: zem;
+}
+</style>
+
+<p><b><font color="windowtext" size="3"face="Modern No. 20">iSanusi Industrial AR Technology
+
+The Foreseer...</font></b></p>
+
+
+</head>
+
+<body>
+ <header id="Component Image"></header>
+<div id="component image.htm">
+
+<script src="component image.htm_jsonp.php">
+
+<script>
+document.getElementById("image.html").innerHTML=
+document.getElementById("Vehicle Form.html").innerHTML=
+document.getElementById("diagnostic scan.htm").innerHTML=
+document.getElementById("inspector notes.htm").innerHTML;
+</script>
+
+<script src="main.js">
+<title>Vehicle Inspection</title></script>
+
+<script>
+let name='iSANUSI';</script>
+
+<script>
+import axios from 'axios';
+import React,{useState}from
+"react"
+import
+'bootstrap/dist/css/bootstrap.min.css';
+
+const GETFORM_FORM_ENDPOINT="YOUR-FORM-ENDPOINT";
+
+function Form(){
+const[formStatus,setFormStatus]
+=useState(false);
+const[query,setQuery]=
+useState({
+name:"Component"
+
+});
+
+const handleFileChange=()=>(e)
+=>{
+setQuery((prevState)=>({
+...prevState,
+files:e.target.files[0]
+}));
+};
+
+const handleChange=()=>
+{
+const name=e.target.name;
+const value=e.target.value;
+setQuery((prevState)=>({
+...prevState,
+[name]:value
+}));
+};
+
+const handleSubmit=(e)=>{
+e.preventDefault();
+const formData=new
+FormData();
+
+Object.entries(query).forEach(([key,
+value])=>{
+formData.append(key,
+value);
+});
+
+axios
+.post(
+GETFORM_FORM_ENDPOINT,
+formData,
+{headers:{Accept:
+"application/json"}}
+)
+.then(function(response)
+{
+setFormStatus(true);
+setQuery({
+name:"Puseletso",
+email:"puseletso55@gmail.com",
+});
+console.log(response);
+})
+.catch(function(error){
+console.log(error);
+});
+;
+
+}
+export default Form
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  <form>
+  <label for="file-upload" class="custom-file-upload">
+  <i class="fa fa-cloud-upload"></i>
+  </label>
+  <input id="file-upload" name='upload_cont_img' type="file" style="display:none;">
+  </form></script>
+
+
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ 
+ <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button> </script>
+
+
+
+<script src="path/to/my/script.js"></script>
+
+<script>
+window.addEventListener('load', () => {
+  console.log('This function is executed once the page is fully loaded');
+});
+</script>
+
+<script>
+<button onclick="myFunction()">Go Back</button>
+function myFunction() {
+  window.history.back();
+}
+</script>
+
+<script>async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  myDisplay(myText);
+}</script>
+
+<script>async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  myDisplay(myText);
+}</script>
+
+<script>function showComponent(str) {
+  if (str == "") {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  }
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("txtHint").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "getcomponent.php?q="+str);
+  xhttp.send();
+}</script>
+
+<script>
+document.getElementById("component image.htm").innerHTML = obj.name;
+</script>
+
+<script>const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+xmlhttp.open("GET", "component.php");
+xmlhttp.send();</script>
+
+<script>const limit = {"limit":10};
+const dbParam = JSON.stringify(limit);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  document.getElementById("component image.htm").innerHTML = this.responseText;
+}
+xmlhttp.open("GET","json_component image.htm_db.php?x=" + dbParam);
+xmlhttp.send();</script>
+
+
+<script>import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
+</script>
+
+<script>
+import axios from 'axios';
+import React,{useState}from
+"react"
+import
+'bootstrap/dist/css/bootstrap.min.css';
+
+const GETFORM_FORM_ENDPOINT="YOUR-FORM-ENDPOINT";
+
+function Form(){
+const[formStatus,setFormStatus]
+=useState(false);
+const[query,setQuery]=
+useState({
+name:"Puseletso"
+email:"puseletso55@gmail.com",
+});
+
+const handleFileChange=()=>(e)
+=>{
+setQuery((prevState)=>({
+...prevState,
+files:e.target.files[0]
+})));
+};
+
+const handleChange=()=>
+{
+const name=e.target.name;
+const value=e.target.value;
+setQuery((prevState)=>({
+...prevState,
+[name]:value
+}));
+};
+
+const handleSubmit=(e)=>{
+e.preventDefault();
+const formData=new
+FormData();
+
+Object.entries(query).forEach(([key,
+value])=>{
+formData.append(key,
+value);
+});
+
+axios
+.post(
+GETFORM_FORM_ENDPOINT,
+formData,
+{headers:{Accept:
+"application/json"}}
+)
+.then(function(response)
+{
+setFormStatus(true);
+setQuery({
+name:"Puseletso",
+email:"puseletso55@gmail.com",
+});
+console.log(response);
+})
+.catch(function(error){
+console.log(error);
+});
+);
+return(
+<div class="container-md">
+<h2>Gatsby File Upload Form Using Getform,io</h2>
+<form
+acceptCharset="UTF-8"
+method="POST"
+enctype="multipart/form-data"
+id="gatsbyForm"
+onSubmit={handleSubmit}
+>
+<div className="form-group mb-2">
+<label for="puseletso55@gmail.com">Email
+address</label>
+<input
+type="email"
+className="form-group mb-2">
+<label for="puseletso55@gmail.com">Email
+address</label>
+<input
+type="email"
+className="form-control"
+placeholder="Enter your email"
+required
+name="email"
+value={query.email}
+onChange={handleChange()}
+/>
+</div><div className="form-group mb-2">
+<label
+for="exampleInputName">Faulty Component(s)</label>
+<input
+type="text"
+className="form-control"
+placeholder="Enter component name"
+required
+name="name"
+value={query.name}
+onChange={handleChange()}
+/>
+</div> mt-3">
+<label className="mr-2">Upload faulty component image:</label>
+<input name="file" type="file"
+onChange={handleFileChange()}/>
+</div>
+<hr/>
+{formStatus?(
+<div className="text-success mb-2">
+Your message has been sent.
+</div>
+):(
+""
+)}
+<button type="submit" className="btn btn-
+primary">Submit</button>
+</form>
+</div>
+);
+}
+export default Form
+</script>
+
+
+
+<align center>
+<b>Vehicle Faulty Component(s)</b> <br>
+<b>Damaged Component(s)</b> <br>
+
+<head>
+<style>
+div.gallery{
+margin:5px;
+border:1px solid #ccc;
+float:left;
+width:180px;
+}
+
+div.gallery:hover{
+border:1px solid #777;
+}
+
+div.gallery img{
+width:100%;
+height:auto;
+}
+div.desc{
+padding:15px;
+text-align:center;
+}
+</style>
+</head>
+</div>
+
+<body>
+<div id="root">
+
+<script>
+document.getElementById("image.html").innerHTML=
+document.getElementById("Vehicle Form.html").innerHTML=
+document.getElementById("diagnostic scan.htm").innerHTML=
+document.getElementById("inspector notes.htm").innerHTML;
+</script>
+
+
+<form
+action="/component_image.php">
+<input type="button"
+value='Upload Image'
+id="componentImage"
+name="imagename">
+<input
+type="submit">
+</form>
+
+
+<align center>
+
+<form>
+<button onclick="window.location.href='diagnostic scan.htm'">Prev
+</button>
+
+<button onclick="window.location.href='inspector notes.htm'">Next
+</button>
+</form>
+
+
+</align center>
+
+<footer><p>
+ <a href="contact.php">
+ All rights reserved. Copyrights 2022</p>
+</footer>
+</body>
+</div>
+
+
+</html>

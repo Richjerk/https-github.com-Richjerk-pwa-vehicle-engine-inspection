@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32422.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "src.routes.index.svelte", "src.routes.index.svelte.njsproj", "{2B56D6F0-612D-405E-8D08-CBFBE20C8C4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B56D6F0-612D-405E-8D08-CBFBE20C8C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B56D6F0-612D-405E-8D08-CBFBE20C8C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B56D6F0-612D-405E-8D08-CBFBE20C8C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B56D6F0-612D-405E-8D08-CBFBE20C8C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E828D0B-0E58-457C-82DB-83D7A8D6E9AC}
+	EndGlobalSection
+EndGlobal

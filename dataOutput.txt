@@ -1,0 +1,5 @@
+var fs=require("fs");
+var readStream=fs.createReadStream("C://datainput.txt");
+var writeStream=fs.createWriteStream("C://dataOutput.txt");
+readStream.pipe(writeStream);
+

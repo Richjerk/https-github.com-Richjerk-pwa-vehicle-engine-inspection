@@ -1,0 +1,35 @@
+'use strict';
+
+console.log('Hello world');
+
+const bodyParser =
+    require('body-parser');
+const cors = require('cors');
+const express = require('express');
+const db = require('./db');
+const port = process.env.PORT || 9000;
+const app = express();
+const fs = require('fs')
+const typeDefs = fs.readFileSync('./
+    schema.graphql',{encoding:'utd - 8'});
+    const resolvers = require('./rersolvers')
+const { makeExecutableSchema } =
+    require('grapgql-tools')
+const schema =
+    makeExecutableSchema({ TypeDefs, resolvers })
+app.use(cors(), bodyParser.json());
+const { graphiqlExpress, graphqlExpress } =
+    require('apollo-server-express')
+app.use('/graphql', graphiqExpress({ schema }))
+app.use('/graphiqlExpress({endpointURL:' / graphql'}))
+    app.listen(port, () => console.info('Server started on port ${port}'\n\t) \n);
+
+test - app /
+    --> package.json
+--> db.js
+--> data
+vehicles.json
+workshops.json
+--> resolvers.js
+--> schema.graphql
+-->server.js

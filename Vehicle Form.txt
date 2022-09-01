@@ -1,0 +1,10 @@
+import React from "react"
+const Form=()=>{
+return(
+<div>
+<h1>Vehicle Form</h1>
+<p>Vehicle Form</p>
+</div>
+)
+}
+export default FormPage

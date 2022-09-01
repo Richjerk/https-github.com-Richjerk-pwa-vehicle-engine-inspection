@@ -1,0 +1,20 @@
+var fs=require("fs");
+var stream;
+stream;
+stream=fs.createReadStream("C://data.txt");
+
+stream.on("data", function(data){
+var chunck=data.to.String();
+console.log(chunk);
+});
+
+var fs=require("fs");
+var stream;
+stream=fs.createWriteStream("C://data.txt");
+
+stream.write("index.htm")
+stream.write("image.html")
+stream.write("Vehicle Form.html")
+stream.write("diagnostic scan.htm")
+stream.write("component image.htm")
+stream.write("inspector notes.htm")
